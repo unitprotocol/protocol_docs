@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="417px" preserveAspectRatio="none" style="width:388px;height:417px;" version="1.1" viewBox="0 0 388 417" width="388px" zoomAndPan="magnify"><defs><filter height="300%" id="f17p2298v7bz3" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[fba07436c6cbee16f3e9f3b3459b9ba0]
+class VaultManager--><rect codeLine="9" fill="#FEFECE" filter="url(#f17p2298v7bz3)" height="265.6797" id="VaultManager" style="stroke: #A80036; stroke-width: 1.5;" width="216" x="66" y="7"/><ellipse cx="129.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M131.5938,18.6719 C130.6563,18.2344 130.0625,18.0938 129.1875,18.0938 C126.5625,18.0938 124.5625,20.1719 124.5625,22.8906 L124.5625,24.0156 C124.5625,26.5938 126.6719,28.4844 129.5625,28.4844 C130.7813,28.4844 131.9375,28.1875 132.6875,27.6406 C133.2656,27.2344 133.5938,26.7813 133.5938,26.3906 C133.5938,25.9375 133.2031,25.5469 132.7344,25.5469 C132.5156,25.5469 132.3125,25.625 132.125,25.8125 C131.6719,26.2969 131.6719,26.2969 131.4844,26.3906 C131.0625,26.6563 130.375,26.7813 129.6094,26.7813 C127.5625,26.7813 126.2656,25.6875 126.2656,23.9844 L126.2656,22.8906 C126.2656,21.1094 127.5156,19.7969 129.25,19.7969 C129.8281,19.7969 130.4375,19.9531 130.9063,20.2031 C131.3906,20.4844 131.5625,20.7031 131.6563,21.1094 C131.7188,21.5156 131.75,21.6406 131.8906,21.7656 C132.0313,21.9063 132.2656,22.0156 132.4844,22.0156 C132.75,22.0156 133.0156,21.875 133.1875,21.6563 C133.2969,21.5 133.3281,21.3125 133.3281,20.8906 L133.3281,19.4688 C133.3281,19.0313 133.3125,18.9063 133.2188,18.75 C133.0625,18.4844 132.7813,18.3438 132.4844,18.3438 C132.1875,18.3438 131.9844,18.4375 131.7656,18.75 L131.5938,18.6719 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="81" x="149.75" y="27.1543">VaultManager</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="67" x2="281" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="26" x="86" y="53.2104">Auth</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="0" x="90" y="66.0151"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="141" x="86" y="78.8198">&#128218;ERC20SafeTransfer for</text><a href="address" target="_top" title="address" xlink:actuate="onRequest" xlink:href="address" xlink:show="new" xlink:title="address" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="45" x="231" y="78.8198">address</text></a><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="83" x="86" y="91.6245">&#128218;SafeMath for</text><a href="uint" target="_top" title="uint" xlink:actuate="onRequest" xlink:href="uint" xlink:show="new" xlink:title="uint" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="21" x="173" y="91.6245">uint</text></a><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="0" x="90" y="104.4292"/><ellipse cx="77" cy="114.0234" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><a href="Vault" target="_top" title="Vault" xlink:actuate="onRequest" xlink:href="Vault" xlink:show="new" xlink:title="Vault" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="29" x="86" y="117.2339">Vault</text></a><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="28" x="119" y="117.2339">vault</text><ellipse cx="77" cy="126.8281" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><a href="OracleLike" target="_top" title="OracleLike" xlink:actuate="onRequest" xlink:href="OracleLike" xlink:show="new" xlink:title="OracleLike" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="60" x="86" y="130.0386">OracleLike</text></a><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="83" x="150" y="130.0386">uniswapOracle</text><ellipse cx="77" cy="139.6328" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><a href="Liquidator" target="_top" title="Liquidator" xlink:actuate="onRequest" xlink:href="Liquidator" xlink:show="new" xlink:title="Liquidator" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="55" x="86" y="142.8433">Liquidator</text></a><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="52" x="145" y="142.8433">liquidator</text><ellipse cx="77" cy="152.4375" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><a href="address" target="_top" title="address" xlink:actuate="onRequest" xlink:href="address" xlink:show="new" xlink:title="address" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="45" x="86" y="155.6479">address</text></a><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="23" x="135" y="155.6479">COL</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="67" x2="281" y1="162.2422" y2="162.2422"/><ellipse cx="77" cy="173.2422" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="86" y="176.4526">__constructor__</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="8" x="191" y="176.4526">()</text><ellipse cx="77" cy="186.0469" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="44" x="86" y="189.2573">spawn()</text><ellipse cx="77" cy="198.8516" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="28" x="86" y="202.062">join()</text><polygon fill="#FFFF44" points="77,206.6563,81,210.6563,77,214.6563,73,210.6563" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="34" x="86" y="214.8667">_join()</text><ellipse cx="77" cy="224.4609" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="55" x="86" y="227.6714">repayAll()</text><ellipse cx="77" cy="237.2656" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="30" x="86" y="240.4761">exit()</text><polygon fill="#FFFF44" points="77,245.0703,81,249.0703,77,253.0703,73,249.0703" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="97" x="86" y="253.2808">_updatePosition()</text><polygon fill="#FFFF44" points="77,257.875,81,261.875,77,265.875,73,261.875" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="158" x="86" y="266.0854">ensureCollateralProportion()</text><!--MD5=[2b8367ee8a196632b51868e08daef08d]
+class Auth--><rect fill="#FEFECE" filter="url(#f17p2298v7bz3)" height="48" id="Auth" style="stroke: #A80036; stroke-width: 1.5;" width="58" x="7" y="350"/><ellipse cx="22" cy="366" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M24.3438,361.6719 C23.4063,361.2344 22.8125,361.0938 21.9375,361.0938 C19.3125,361.0938 17.3125,363.1719 17.3125,365.8906 L17.3125,367.0156 C17.3125,369.5938 19.4219,371.4844 22.3125,371.4844 C23.5313,371.4844 24.6875,371.1875 25.4375,370.6406 C26.0156,370.2344 26.3438,369.7813 26.3438,369.3906 C26.3438,368.9375 25.9531,368.5469 25.4844,368.5469 C25.2656,368.5469 25.0625,368.625 24.875,368.8125 C24.4219,369.2969 24.4219,369.2969 24.2344,369.3906 C23.8125,369.6563 23.125,369.7813 22.3594,369.7813 C20.3125,369.7813 19.0156,368.6875 19.0156,366.9844 L19.0156,365.8906 C19.0156,364.1094 20.2656,362.7969 22,362.7969 C22.5781,362.7969 23.1875,362.9531 23.6563,363.2031 C24.1406,363.4844 24.3125,363.7031 24.4063,364.1094 C24.4688,364.5156 24.5,364.6406 24.6406,364.7656 C24.7813,364.9063 25.0156,365.0156 25.2344,365.0156 C25.5,365.0156 25.7656,364.875 25.9375,364.6563 C26.0469,364.5 26.0781,364.3125 26.0781,363.8906 L26.0781,362.4688 C26.0781,362.0313 26.0625,361.9063 25.9688,361.75 C25.8125,361.4844 25.5313,361.3438 25.2344,361.3438 C24.9375,361.3438 24.7344,361.4375 24.5156,361.75 L24.3438,361.6719 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="26" x="36" y="370.1543">Auth</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="64" y1="382" y2="382"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="64" y1="390" y2="390"/><!--MD5=[b5b853ec1127d71dbc84fbccb0b429d1]
+class ERC20SafeTransfer--><rect fill="#FEFECE" filter="url(#f17p2298v7bz3)" height="48" id="ERC20SafeTransfer" style="stroke: #A80036; stroke-width: 1.5;" width="147" x="100.5" y="350"/><ellipse cx="115.5" cy="366" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M117.8438,361.6719 C116.9063,361.2344 116.3125,361.0938 115.4375,361.0938 C112.8125,361.0938 110.8125,363.1719 110.8125,365.8906 L110.8125,367.0156 C110.8125,369.5938 112.9219,371.4844 115.8125,371.4844 C117.0313,371.4844 118.1875,371.1875 118.9375,370.6406 C119.5156,370.2344 119.8438,369.7813 119.8438,369.3906 C119.8438,368.9375 119.4531,368.5469 118.9844,368.5469 C118.7656,368.5469 118.5625,368.625 118.375,368.8125 C117.9219,369.2969 117.9219,369.2969 117.7344,369.3906 C117.3125,369.6563 116.625,369.7813 115.8594,369.7813 C113.8125,369.7813 112.5156,368.6875 112.5156,366.9844 L112.5156,365.8906 C112.5156,364.1094 113.7656,362.7969 115.5,362.7969 C116.0781,362.7969 116.6875,362.9531 117.1563,363.2031 C117.6406,363.4844 117.8125,363.7031 117.9063,364.1094 C117.9688,364.5156 118,364.6406 118.1406,364.7656 C118.2813,364.9063 118.5156,365.0156 118.7344,365.0156 C119,365.0156 119.2656,364.875 119.4375,364.6563 C119.5469,364.5 119.5781,364.3125 119.5781,363.8906 L119.5781,362.4688 C119.5781,362.0313 119.5625,361.9063 119.4688,361.75 C119.3125,361.4844 119.0313,361.3438 118.7344,361.3438 C118.4375,361.3438 118.2344,361.4375 118.0156,361.75 L117.8438,361.6719 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="115" x="129.5" y="370.1543">ERC20SafeTransfer</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="101.5" x2="246.5" y1="382" y2="382"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="101.5" x2="246.5" y1="390" y2="390"/><!--MD5=[11730a402df8153eb5160cb7d4f37d92]
+class SafeMath--><rect fill="#FEFECE" filter="url(#f17p2298v7bz3)" height="48" id="SafeMath" style="stroke: #A80036; stroke-width: 1.5;" width="87" x="282.5" y="350"/><ellipse cx="297.5" cy="366" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M299.8438,361.6719 C298.9063,361.2344 298.3125,361.0938 297.4375,361.0938 C294.8125,361.0938 292.8125,363.1719 292.8125,365.8906 L292.8125,367.0156 C292.8125,369.5938 294.9219,371.4844 297.8125,371.4844 C299.0313,371.4844 300.1875,371.1875 300.9375,370.6406 C301.5156,370.2344 301.8438,369.7813 301.8438,369.3906 C301.8438,368.9375 301.4531,368.5469 300.9844,368.5469 C300.7656,368.5469 300.5625,368.625 300.375,368.8125 C299.9219,369.2969 299.9219,369.2969 299.7344,369.3906 C299.3125,369.6563 298.625,369.7813 297.8594,369.7813 C295.8125,369.7813 294.5156,368.6875 294.5156,366.9844 L294.5156,365.8906 C294.5156,364.1094 295.7656,362.7969 297.5,362.7969 C298.0781,362.7969 298.6875,362.9531 299.1563,363.2031 C299.6406,363.4844 299.8125,363.7031 299.9063,364.1094 C299.9688,364.5156 300,364.6406 300.1406,364.7656 C300.2813,364.9063 300.5156,365.0156 300.7344,365.0156 C301,365.0156 301.2656,364.875 301.4375,364.6563 C301.5469,364.5 301.5781,364.3125 301.5781,363.8906 L301.5781,362.4688 C301.5781,362.0313 301.5625,361.9063 301.4688,361.75 C301.3125,361.4844 301.0313,361.3438 300.7344,361.3438 C300.4375,361.3438 300.2344,361.4375 300.0156,361.75 L299.8438,361.6719 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="311.5" y="370.1543">SafeMath</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="283.5" x2="368.5" y1="382" y2="382"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="283.5" x2="368.5" y1="390" y2="390"/><!--MD5=[d42dac1dc5cbd7a40bb101bffa640c2b]
+link VaultManager to Auth--><path codeLine="35" d="M95.3253,273.265 C82.5717,294.706 70.2679,315.3902 60.2036,332.3098 " fill="none" id="VaultManager-&gt;Auth" style="stroke: #B8860B; stroke-width: 1.0;"/><polygon fill="none" points="66.1284,336.0421,49.8877,349.6525,54.0961,328.8849,66.1284,336.0421" style="stroke: #B8860B; stroke-width: 1.0;"/><!--MD5=[e64416754fa16cd154f3f28719328885]
+link VaultManager to ERC20SafeTransfer--><path codeLine="36" d="M174,273.265 C174,293.553 174,313.1639 174,329.5487 " fill="none" id="VaultManager-&gt;ERC20SafeTransfer" style="stroke: #556B2F; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="181,329.6525,174,349.6525,167,329.6525,181,329.6525" style="stroke: #556B2F; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="73" x="175" y="316.0669">for address</text><!--MD5=[65e9c6bc9d8b659ac43ab5a294e5bac3]
+link VaultManager to SafeMath--><path codeLine="37" d="M260.656,273.265 C274.855,294.936 288.547,315.835 299.698,332.8543 " fill="none" id="VaultManager-&gt;SafeMath" style="stroke: #556B2F; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="305.598,329.0871,310.703,349.6525,293.888,336.7595,305.598,329.0871" style="stroke: #556B2F; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="47" x="291" y="316.0669">for uint</text><!--MD5=[b752b417da36c7f0178907d89b2bff06]
+@startuml
+' - - for auto-render install: https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
+' - - options - -
+
+
+
+' - - classes - -
+
+
+class VaultManager {
+    ' - - inheritance - -
+	{abstract}Auth
+
+    ' - - usingFor - -
+	{abstract}📚ERC20SafeTransfer for [[address]]
+	{abstract}📚SafeMath for [[uint]]
+
+    ' - - vars - -
+	+[[Vault]] vault
+	+[[OracleLike]] uniswapOracle
+	+[[Liquidator]] liquidator
+	+[[address]] COL
+
+    ' - - methods - -
+	+**__constructor__**()
+	+spawn()
+	+join()
+	#_join()
+	+repayAll()
+	+exit()
+	#_updatePosition()
+	#ensureCollateralProportion()
+
+}
+' - - inheritance / usingFor - -
+VaultManager - -[#DarkGoldenRod]|> Auth
+VaultManager ..[#DarkOliveGreen]|> ERC20SafeTransfer : //for address//
+VaultManager ..[#DarkOliveGreen]|> SafeMath : //for uint//
+@enduml
+
+@startuml
+
+
+
+
+
+class VaultManager {
+	{abstract}Auth
+
+	{abstract}📚ERC20SafeTransfer for [[address]]
+	{abstract}📚SafeMath for [[uint]]
+
+	+[[Vault]] vault
+	+[[OracleLike]] uniswapOracle
+	+[[Liquidator]] liquidator
+	+[[address]] COL
+
+	+**__constructor__**()
+	+spawn()
+	+join()
+	#_join()
+	+repayAll()
+	+exit()
+	#_updatePosition()
+	#ensureCollateralProportion()
+
+}
+VaultManager - -[#DarkGoldenRod]|> Auth
+VaultManager ..[#DarkOliveGreen]|> ERC20SafeTransfer : //for address//
+VaultManager ..[#DarkOliveGreen]|> SafeMath : //for uint//
+@enduml
+
+PlantUML version 1.2020.16beta7(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
