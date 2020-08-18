@@ -9,6 +9,8 @@ Manages liquidation process.
 
 ## Liquidator UML diagram
 
+<span style="color:red">**UPDATE** diagram</span>
+
 <p align="center">
   <img alt="Liquidator UML diagram" src = "./images/svg/Liquidator.svg">
 </p>
@@ -29,43 +31,45 @@ function isLiquidatablePosition(address token, address user) public view returns
 
 * token:  The address of token using as main collateral.
 * user: The owner of a position.
-* RETURN: whether a position is liquidatable.
-
-<br >
-
-
-## Is Safe Position
-
-Determines whether a position is sufficiently collateralized.
-
-<br >
-
-
-```javascript
-function isSafePosition(address token, address user) public view returns (bool)
-```
-
-* token:  The address of token using as main collateral.
-* user: The owner of a position.
-* RETURN: whether a position is sufficiently collateralized.
+* RETURN: Whether a position is liquidatable.
 
 <br >
 
 
 ## Get Collateralization Ratio
 
-Calculates position's collateral ratio.
+Calculates position's collateral ratio based on collateral proportion.
 
 <br >
 
 
 ```javascript
-function getCollateralizationRatio(address token, address user) public view returns (uint)
+function CR(uint mainUsdValue, uint colUsdValue, uint debt) public pure returns (uint)
 ```
 
-* token:  The address of token using as main collateral.
-* user: The owner of a position.
-* RETURN: collateralization ratio of a position.
+* mainUsdValue: USD value of main collateral in position.
+* colUsdValue: USD value of COL amount in position.
+* debt: USDP borrowed.
+* RETURN: Collateralization ratio of a position.
+
+<br >
+
+
+## Get Liquidation Ratio
+
+Calculates position's liquidation ratio based on collateral proportion.
+
+<br >
+
+
+```javascript
+function LR(address asset, uint mainUsdValue, uint colUsdValue) public view returns(uint)
+```
+
+* asset: The address of the main collateral token of a position.
+* mainUsdValue: USD value of main collateral in position.
+* colUsdValue: USD value of COL amount in position.
+* RETURN: Liquidation ratio of a position.
 
 <br >
 
@@ -79,11 +83,13 @@ Triggers liquidation process. Funds transfers directly to the liquidation system
 
 
 ```javascript
-function liquidate(address token, address user) external
+function liquidate(address asset, address user, USDPLib.ProofData memory mainPriceProof, USDPLib.ProofData memory colPriceProof) public
 ```
 
 * msg.sender: The account which shall liquidate the borrower.
-* token: The address of token using as main collateral.
+* asset: The address of the main collateral token of a position.
 * user: The owner of a position.
+* mainPriceProof: ProofData struct for the main collateral token price.
+* colPriceProof: ProofData struct for the COL token price.
 
 <br >
